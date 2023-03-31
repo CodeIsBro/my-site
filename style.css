@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body { overflow: hidden; }
+
+
+.chainIcon {
+  
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+  display: flexbox;
+  justify-content: center;
+  padding-top: 25px;
+
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0.3;
+}
+
+.chainIcon:hover {
+  transform: translateY(-25px);
+}
+
+
+
+.blackTop {
+  background-color: rgb(27, 24, 24);
+  position: relative;
+  width: 100%;
+  height: 600px; 
+
+}
+
+.blackTopHeaderText {
+  color: rgb(230, 230, 230);
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  
+}
+
+
+.discriptionHeaderText {
+  color: rgb(230, 230, 230);
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  font-size: 100%;
+}
+
+
+
+
+.whiteDown {
+  background-color: rgb(221, 221, 221);
+  position: absolute;
+  width: 100%;
+  height: 320px;
+}
+
+.whiteDownHeaderText {
+  color: rgb(27, 24, 24);
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 90%
+}
+
+.discriptionDownHeaderText {
+  color: rgb(27, 24, 24);
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  font-size: 95%
+}
+
+
+.instLink {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: black;
+
+  padding-left: 3px;
+
+
+  animation-name: slideInUp;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+
+
+  transition-property: transform;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.00001s;
+}
+
+.instLink:hover {
+  transform: translateY(-5px);
+
+  border-bottom: 1px solid;
+  border-color: rgb(240, 76, 158);
+
+  background: #d3d3d3;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(+250%);
+  }
+
+  to {transform: translateY(0);
+  }
+}
+
+
+
+.instLinkContainer {
+  color: rgb(27, 24, 24);
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  font-size: 75% 
+}
+
+
+.instIcon {
+  
+  display: flex;
+  position: relative;
+  
+  width: 15px;
+  height: 15px;
+
+  animation-name: slideInLeft;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+}
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateY(+250%);
+  }
+
+  to {transform: translateY(0);
+  }
+} 
+
+.animateDown {
+
+  animation-name: slideInDown;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-30%);
+  }
+
+  to {transform: translateY(0);
+  }
+}
+
+
+.animateLR {
+
+  animation-name: animateLR;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+}
+
+@keyframes animateLR {
+  from {
+    transform: translateX(-45%);
+  }
+
+  to {transform: translateX(0);
+  }
+}
+
+
+.transperText { animation: show 3s;
+}
+
+@keyframes show {
+
+from {opacity: 0;} to {opacity: 1;}
+}
